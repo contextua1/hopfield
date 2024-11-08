@@ -162,8 +162,8 @@ def run_hopfield(letter="A", sigma=0.8):
 
 #usage
 if __name__ == "__main__":
-    run_hopfield("A", 55555.5)
-    """run_hopfield("A", 0.8)
+    run_hopfield("A", 0.5)
+    run_hopfield("A", 0.8)
     run_hopfield("A", 1.1)
     run_hopfield("C", 0.5)
     run_hopfield("C", 0.8)
@@ -177,4 +177,4 @@ if __name__ == "__main__":
     run_hopfield("W", 0.5)
     run_hopfield("W", 0.8)
     run_hopfield("W", 1.1)
-    """
+    
